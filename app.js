@@ -7,7 +7,7 @@ const app = express()
 let images = [] // Tableau des images (oeuvres)
 
 // Chemin des images (oeuvres)
-const directoryPath = path.join('../painttestzone/public/images/oeuvres');
+const directoryPath = path.join('../public_html/images/oeuvres');
 
   // On lit le directory des images
   fs.readdir(directoryPath, function (err, files) {
